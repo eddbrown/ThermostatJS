@@ -15,10 +15,12 @@
 }
 
 #temp {
-  font-size: 1000%;
-  left: 10%;
+  position: fixed;
+  font-size: 5000%;
+  left: 40%;
 }
 
 body {
-  background-color: white;
+  background-image: url('../images/giphy.gif');
+  background-size: 100%;
 }
