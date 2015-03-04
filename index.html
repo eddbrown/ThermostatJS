@@ -1,1 +1,32 @@
-index.html
+<!DOCTYPE html>
+<html>
+
+ <head>
+ <title>Thermostat Control</title>
+ </head>
+
+
+ <body>
+
+  <p>Current Temperature:</p>
+    <h1 id="temp"></h1>
+    <button type="button" id="increase">Increase Temperature</button>
+    <button type="button" id="decrease">Decrease Temperature</button>
+    <button type="button" id="reset">Reset</button>
+  </p>
+  <p>
+    Current Power Save Mode: <h2 id="mode"></h2>
+    <button type="button" id="powersaveon">On</button>
+    <button type="button" id="powersaveoff">Off</button>
+  </p>  
+ </body>
+
+   
+
+
+ <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+ <script src="src/Thermostat.js"></script>
+ <script src="Interface.js"></script>
+
+
+</html>
