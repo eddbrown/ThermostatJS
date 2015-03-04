@@ -20,3 +20,17 @@ Thermostat.prototype.turnPSMOff = function() {
 Thermostat.prototype.turnPSMOn = function() {
   this.isPowerSavingModeOn = true
 };
+
+Thermostat.prototype.pushResetButton = function() {
+  this.temp = 20
+};
+
+Thermostat.prototype.colour = function() {
+  if (this.temp < 18) {
+    return 'GREEN';
+  } else if (this.temp < 25) {
+    return 'YELLOW';
+  } else {
+    return 'RED';
+  }
+};
