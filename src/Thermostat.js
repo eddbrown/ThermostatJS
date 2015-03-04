@@ -14,23 +14,19 @@ Thermostat.prototype.decrease = function() {
 };
 
 Thermostat.prototype.turnPSMOff = function() {
-  this.isPowerSavingModeOn = false
+  this.isPowerSavingModeOn = false;
 };
 
 Thermostat.prototype.turnPSMOn = function() {
-  this.isPowerSavingModeOn = true
+  this.isPowerSavingModeOn = true;
+  this.temp = (this.temp > 25) ? 25 : this.temp;
 };
 
 Thermostat.prototype.pushResetButton = function() {
-  this.temp = 20
+  this.temp = 20;
 };
 
 Thermostat.prototype.colour = function() {
-  if (this.temp < 18) {
-    return 'GREEN';
-  } else if (this.temp < 25) {
-    return 'YELLOW';
-  } else {
-    return 'RED';
-  }
+  return (this.temp < 18) ? 'GREEN' : (this.temp < 25) ? 'YELLOW' : 'RED';
 };
+

@@ -73,13 +73,19 @@ describe('Thermostat', function(){
     expect(thermostat.colour()).toEqual('YELLOW');
   });
 
-  it('is YELLOW when the temperature is between 25 and 18', function(){
-    thermostat.temp = 20;
-    expect(thermostat.colour()).toEqual('YELLOW');
-  });
-
   it('is RED when the temperature is above 25', function(){
     thermostat.temp = 60;
     expect(thermostat.colour()).toEqual('RED');
   });
+
+  it('should reset to 25 if the temperature is above 25 and power save is turned on', function(){
+    thermostat.temp = 28;
+    thermostat.turnPSMOn();
+    expect(thermostat.temp).toEqual(25);
+  });
+
+
+
+
+
 });
