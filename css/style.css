@@ -1,0 +1,23 @@
+h1 {
+  color: pink;
+}
+
+#increase {
+  color: red;
+}
+
+#decrease {
+  color: green;
+}
+
+#temp {
+  color: red;
+}
+
+#powersaveon {
+  color: green;
+}
+
+#powersaveoff {
+  color: red;
+}
