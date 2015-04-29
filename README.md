@@ -5,7 +5,8 @@ The strengths of the project are in the TDD and the simplicity of the code. The 
 
 The methods were made in full and then refactored. I had a goal of trying to get each method to be one line in content. This of course lead to some confusing lines so it was worth keeping some of them at a couple of lines long.
 
-##Screenshot
+##Screenshot 
+(not my background picture, wish it was)
 ![Alt text](https://github.com/eddbrown/ThermostatJS/blob/master/images/screen_shot.png)
 
 ##Using the App
