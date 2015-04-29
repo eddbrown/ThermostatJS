@@ -1,4 +1,4 @@
-# ThermostatJS
+# ThermostatJS [![Code Climate](https://codeclimate.com/repos/55400ca26956807cc8003a8b/badges/22844e7ecf0b3f146bfd/gpa.svg)](https://codeclimate.com/repos/55400ca26956807cc8003a8b/feed)
 This project was experimenting with javascript and jquery, tested with Jamine, to produce a web-app that models a home thermostat.
 
 
