@@ -7,6 +7,8 @@ The methods were made in full and then refactored. I had a goal of trying to get
 
 ##Using App
 - Run open index.html
+
+
 ##Testing
 - Run open SpecRunner.html
 
